@@ -1,0 +1,21 @@
+{
+    "name": "rpl/mvc",
+    "description": "Belajar PHP MVC",
+    "type" : "project",
+    "require": {
+        "php" :">=8"
+    },
+    "require-dev": {
+        "phpunit/phpunit" :"9.5.8"
+    },
+    "autoload": {
+        "psr-4" : {
+            "Rpl\\Mvc\\" : "app"
+        }
+    },
+    "autoload-dev": {
+        "psr-4" : {
+            "Rpl\\Mvc\\" : "test"
+        }
+    }
+}
